@@ -9,6 +9,7 @@
   top: 0;
   left: 0;
   width: 100vw;
+  max-width: 700px;
   height: 100dvh; /* Altura dinámica para móviles */
   z-index: -1; /* Se mantiene detrás de todo */
   background-image: url("../../img/lienzo.png");
@@ -20,9 +21,9 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 700px;
   background: transparent; /* El body debe ser transparente */
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
