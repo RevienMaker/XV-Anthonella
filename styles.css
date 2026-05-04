@@ -498,6 +498,11 @@ header .contenido #contador .simply-section div .simply-word {
   gap: 8px;
   color: rgb(105, 81, 0);
 }
+.invitacion .texto-invitacion .icon {
+  fill: rgb(180, 138, 2);
+  margin: 20px;
+  width: 50px;
+}
 .invitacion .letra-pequena {
   margin-top: 15px;
   font-size: 15px;
@@ -629,6 +634,11 @@ header .contenido #contador .simply-section div .simply-word {
 .confirmacion .contenido h3 {
   font-size: 25px;
   color: rgb(105, 81, 0);
+}
+.confirmacion .contenido .icon1 {
+  fill: rgb(180, 138, 2);
+  margin: 20px;
+  width: 50px;
 }
 .confirmacion .contenido .botones {
   padding: 10px;
