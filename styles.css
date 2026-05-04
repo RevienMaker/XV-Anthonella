@@ -386,12 +386,12 @@ header .contenido {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0);
   text-align: center;
-  padding: 20px;
+  padding: 45px;
 }
 header .contenido .reproductor {
   display: flex;
@@ -409,15 +409,15 @@ header .contenido audio::-webkit-media-controls-mute-button {
 }
 header .contenido h2 {
   font-weight: 300;
-  font-size: 35px;
+  font-size: 25px;
 }
 header .contenido h1 {
   font-family: "MonteCarlo", cursive;
-  font-size: 60px;
+  font-size: 45px;
 }
 header .contenido h3 {
   color: rgb(105, 81, 0);
-  font-size: 30px;
+  font-size: 25px;
 }
 header .contenido #contador {
   margin-top: 40px;
@@ -425,12 +425,12 @@ header .contenido #contador {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 header .contenido #contador .simply-section {
   background-color: rgba(255, 255, 255, 0.683);
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,12 +443,12 @@ header .contenido #contador .simply-section div {
   flex-direction: column;
 }
 header .contenido #contador .simply-section div span {
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Kalnia", serif;
   font-weight: 300;
 }
 header .contenido #contador .simply-section div .simply-word {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
 }
@@ -465,11 +465,11 @@ header .contenido #contador .simply-section div .simply-word {
 }
 .invitacion p {
   font-weight: 500;
-  font-size: 35px;
+  font-size: 25px;
   color: rgb(105, 81, 0);
 }
 .invitacion .texto-invitacion h3 {
-  font-size: 30px;
+  font-size: 25px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -563,7 +563,7 @@ header .contenido #contador .simply-section div .simply-word {
   padding: 45px;
 }
 .lo-que-tienes-que-saber .contenido h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
 }
 .lo-que-tienes-que-saber .contenido h2 {
@@ -571,7 +571,7 @@ header .contenido #contador .simply-section div .simply-word {
 }
 .lo-que-tienes-que-saber .contenido p {
   margin: 0;
-  font-size: 30px;
+  font-size: 25px;
 }
 .lo-que-tienes-que-saber .contenido .imagenes {
   display: flex;
@@ -595,18 +595,18 @@ header .contenido #contador .simply-section div .simply-word {
   padding-bottom: 400px;
 }
 .confirmacion .contenido h1 {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 400;
 }
 .confirmacion .contenido p {
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
 }
 .confirmacion .contenido img {
   width: 100%;
 }
 .confirmacion .contenido h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(105, 81, 0);
 }
 .confirmacion .contenido .botones {
@@ -636,7 +636,7 @@ header .contenido #contador .simply-section div .simply-word {
 .confirmacion .contenido .botones button h3 {
   padding: 10px 0;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   margin: 0;
 }
@@ -666,7 +666,7 @@ header .contenido #contador .simply-section div .simply-word {
 .donaciones .contenido p {
   margin: 10px;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 
