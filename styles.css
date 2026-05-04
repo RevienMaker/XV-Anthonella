@@ -4,8 +4,26 @@
   font-family: "Cormorant Garamond", serif;
 }
 
+.fondo-fijo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh; /* Altura dinámica para móviles */
+  z-index: -1; /* Se mantiene detrás de todo */
+  background-image: url("../../img/lienzo.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Esto evita que la imagen "salte" en móviles */
+  will-change: transform;
+}
+
 body {
   max-width: 1200px;
+  background: transparent; /* El body debe ser transparente */
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
