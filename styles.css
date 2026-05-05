@@ -60,7 +60,7 @@ h3 {
 .separador-blanco {
   width: 50%;
   margin: auto;
-  border: 0.3px solid rgb(255, 255, 255);
+  border: 0.3px solid rgb(105, 81, 0);
 }
 
 html {
@@ -430,15 +430,20 @@ header .contenido audio::-webkit-media-controls-mute-button {
 }
 header .contenido h2 {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 30px;
 }
 header .contenido h1 {
   font-family: "MonteCarlo", cursive;
-  font-size: 45px;
+  font-size: 50px;
 }
 header .contenido h3 {
   color: rgb(105, 81, 0);
   font-size: 25px;
+}
+header .contenido .MA-img {
+  width: 130%;
+  margin-bottom: -50px;
+  margin-top: -30px;
 }
 header .contenido #contador {
   margin-top: 40px;
@@ -674,10 +679,6 @@ header .contenido #contador .simply-section div .simply-word {
 
 .donaciones {
   height: 100vh;
-  background-image: url("../../img/Caja.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .donaciones .contenido {
   height: 100%;
@@ -685,20 +686,22 @@ header .contenido #contador .simply-section div .simply-word {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(83, 83, 83, 0.346);
   padding: 60px 20px;
   text-align: center;
 }
 .donaciones .contenido h3 {
   margin: 0;
-  color: white;
+  color: rgb(105, 81, 0);
   font-size: 35px;
 }
 .donaciones .contenido p {
   margin: 10px;
   font-weight: 400;
   font-size: 25px;
-  color: white;
+  color: rgb(105, 81, 0);
+}
+.donaciones .contenido img {
+  width: 70%;
 }
 
 .fotosHash2 {

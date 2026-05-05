@@ -32,7 +32,7 @@ h1, h2, h3, p{
     animation-fill-mode: both;
 }
 
-.separador-img{
+.separador-img, img{
     view-timeline-name: --linea;
     view-timeline-axis: block;
 
