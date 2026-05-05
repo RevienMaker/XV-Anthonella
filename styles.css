@@ -407,7 +407,7 @@ header .contenido {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0);
@@ -441,9 +441,9 @@ header .contenido h3 {
   font-size: 25px;
 }
 header .contenido .MA-img {
-  width: 130%;
-  margin-bottom: -50px;
-  margin-top: -30px;
+  width: 90%;
+  margin-bottom: -130px;
+  margin-top: -60px;
 }
 header .contenido #contador {
   margin-top: 40px;
@@ -677,16 +677,14 @@ header .contenido #contador .simply-section div .simply-word {
   margin: 0;
 }
 
-.donaciones {
-  height: 100vh;
-}
 .donaciones .contenido {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+  padding: 0px 20px;
+  padding-bottom: 150px;
   text-align: center;
 }
 .donaciones .contenido h3 {
@@ -702,6 +700,10 @@ header .contenido #contador .simply-section div .simply-word {
 }
 .donaciones .contenido img {
   width: 70%;
+}
+.donaciones .contenido .MA-img-final {
+  width: 50%;
+  margin: -40px;
 }
 
 .fotosHash2 {
